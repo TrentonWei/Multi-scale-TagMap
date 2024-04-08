@@ -1,0 +1,84 @@
+#Statistics{
+  position: absolute;
+  left:820px;
+  top: 18px;
+}
+
+.barBtn{
+ background:url("../images/histogram.png");
+ background-size: 40px 40px;
+ width: 40px;
+ width: 40px;
+ height: 40px;
+ border: 0px;
+ cursor: pointer;
+
+}
+
+.pieBtn{
+ background: url("../images/pie.png"); 
+ background-size: 40px 40px;
+ width: 40px;
+ height: 40px;
+ border: 0px;
+ cursor: pointer;
+}
+
+.lineBtn{
+ background: url("../images/line.png"); 
+background-size: 40px 40px;
+ width: 40px;
+ height: 40px;
+ border: 0px;
+ cursor: pointer;
+}
+
+.heatBtn{
+ background: url("../images/heatmap.png"); 
+ background-size: 40px 40px;
+ width: 40px;
+ height: 40px;
+ border: 0px;
+ cursor: pointer;
+}
+
+#heatPar{
+  width: 130px; 
+  height: 85px; 
+  padding: 0.4em; 
+  position: absolute;
+  left:850px;
+  top: 60px;
+  background-color:rgba(255, 255, 255, 0.7)
+}
+.axis path,
+.axis line{
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+
+
+.MyText {
+	fill: white;
+	text-anchor: middle;
+}
+
+.tooltip{
+	 font-family: simsun;
+	 font-size: 14px;
+	 width: 120;
+	 height: auto;
+	 position: absolute;
+	 text-align: center;
+     border-style: solid; 
+	 border-width: 1px;
+	 background-color: white;
+	 border-radius: 5px;
+  }

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e60eb33-b068-4bf9-99a1-12248e211ec8" name="默认的" comment="" />
+    <ignored path="Turf.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Turf" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="41" column="58" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#option#0;n#select#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#1;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#2;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#3;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#4;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#5;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="2660" column="22" selection-start-line="2660" selection-start-column="9" selection-end-line="2660" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/init.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7657">
+              <caret line="403" column="15" selection-start-line="403" selection-start-column="13" selection-end-line="403" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>point</find>
+      <find>Tag</find>
+      <find>Helper</find>
+      <find>th</find>
+      <find>Nai</find>
+      <find>, &quot;count&quot;</find>
+      <find>},{</find>
+      <find>Culture</find>
+      <find>Legend</find>
+      <find>UNITED STATES</find>
+      <find>developed</find>
+      <find>2018</find>
+      <find>United sTATE</find>
+      <find>China</find>
+      <find>United sTATES</find>
+      <find>cHINA</find>
+      <find>India</find>
+      <find>中国</find>
+      <find>NY</find>
+      <find>New</find>
+      <find>LegendColor</find>
+      <find>d3</find>
+      <find>statistic</find>
+      <find>sort</find>
+      <find>descend</find>
+      <find>fileField</find>
+      <find>oncli</find>
+      <find>d3.</find>
+      <find>featurecolle</find>
+      <find>ChangeBasemap</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>NAME</replace>
+      <replace>STUSPS</replace>
+      <replace>clearMap</replace>
+      <replace>,</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test06.html" />
+        <option value="$PROJECT_DIR$/data/Comment_Data.json" />
+        <option value="$PROJECT_DIR$/data/world.geojson" />
+        <option value="$PROJECT_DIR$/css/init.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data/印度-China.json" />
+        <option value="$PROJECT_DIR$/data/印度-Chinese Military.json" />
+        <option value="$PROJECT_DIR$/data/印度-Made in China.json" />
+        <option value="$PROJECT_DIR$/data/美国-China.json" />
+        <option value="$PROJECT_DIR$/data/美国-COVID-19.json" />
+        <option value="$PROJECT_DIR$/data/美国-Hong Kong.json" />
+        <option value="$PROJECT_DIR$/js/init.js" />
+        <option value="$PROJECT_DIR$/data/world.json" />
+        <option value="$PROJECT_DIR$/data/California.json" />
+        <option value="$PROJECT_DIR$/data/New York.json" />
+        <option value="$PROJECT_DIR$/data/usa.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1935" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TagMapExplorer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TagMapOfWorldandUSA（中文版）" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TagMapExplorer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TagMapOfWorldandUSA（中文版）" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TagMapOfWorldandUSA（中文版）\data" />
+      <recent name="E:\PSU\PSUProject\TagMapOfWorldandUSA\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.init.js JavaScript">
+    <configuration name="init.js JavaScript" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/TagMapExplorer/index.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="init.js" type="NodeJSConfigurationType" path-to-js-file="init.js" working-dir="$PROJECT_DIR$/js">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" start="true" with-js-debugger="true" url="http://localhost:63342/TagMapExplorer/index.html" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner">
+      <node-interpreter />
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.init.js JavaScript" />
+      <item itemvalue="Node.js.init.js" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e60eb33-b068-4bf9-99a1-12248e211ec8" name="默认的" comment="" />
+      <created>1527723383850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527723383850</updated>
+      <workItem from="1546652279524" duration="1221000" />
+      <workItem from="1546670539036" duration="1966000" />
+      <workItem from="1546779322465" duration="3400000" />
+      <workItem from="1546825127989" duration="2553000" />
+      <workItem from="1546827972121" duration="2705000" />
+      <workItem from="1546831368284" duration="349000" />
+      <workItem from="1546842513818" duration="10931000" />
+      <workItem from="1546855938577" duration="486000" />
+      <workItem from="1546857694786" duration="761000" />
+      <workItem from="1546858816987" duration="2202000" />
+      <workItem from="1546861599228" duration="541000" />
+      <workItem from="1546862226522" duration="1516000" />
+      <workItem from="1546927593856" duration="7653000" />
+      <workItem from="1547005580869" duration="20960000" />
+      <workItem from="1547080822214" duration="6780000" />
+      <workItem from="1547097542975" duration="603000" />
+      <workItem from="1547271138581" duration="348000" />
+      <workItem from="1547275419370" duration="69000" />
+      <workItem from="1547275596723" duration="10000" />
+      <workItem from="1548337960845" duration="2013000" />
+      <workItem from="1548382208839" duration="2789000" />
+      <workItem from="1548406945229" duration="2440000" />
+      <workItem from="1548472378276" duration="4108000" />
+      <workItem from="1548500915098" duration="12173000" />
+      <workItem from="1548564263182" duration="187000" />
+      <workItem from="1548570537083" duration="1172000" />
+      <workItem from="1549804908700" duration="34000" />
+      <workItem from="1555029307680" duration="7117000" />
+      <workItem from="1555295558083" duration="73000" />
+      <workItem from="1555400139439" duration="215000" />
+      <workItem from="1555463406620" duration="223000" />
+      <workItem from="1564560175679" duration="10000" />
+      <workItem from="1564560219102" duration="211000" />
+      <workItem from="1565180901559" duration="285000" />
+      <workItem from="1566374910097" duration="772000" />
+      <workItem from="1568638358678" duration="745000" />
+      <workItem from="1569142090982" duration="947000" />
+      <workItem from="1573031826933" duration="37000" />
+      <workItem from="1578033485679" duration="250000" />
+      <workItem from="1594628467836" duration="2253000" />
+      <workItem from="1594632605610" duration="596000" />
+      <workItem from="1594690934543" duration="1356000" />
+      <workItem from="1594711605823" duration="3835000" />
+      <workItem from="1594862202205" duration="5005000" />
+      <workItem from="1597997783207" duration="232000" />
+      <workItem from="1598497103029" duration="38000" />
+      <workItem from="1598516210484" duration="165000" />
+      <workItem from="1598585480328" duration="601000" />
+      <workItem from="1598773207838" duration="92000" />
+      <workItem from="1601428965189" duration="2059000" />
+      <workItem from="1604568632444" duration="489000" />
+      <workItem from="1604667965279" duration="76000" />
+      <workItem from="1607348348626" duration="121000" />
+      <workItem from="1609040838466" duration="275000" />
+      <workItem from="1618560851896" duration="290000" />
+      <workItem from="1632453743211" duration="705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="119043000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16918188" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32920355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3280142" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15070923" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="版本控制" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="找到" order="10" weight="0.3299435" />
+      <window_info anchor="bottom" id="运行" order="11" />
+      <window_info anchor="bottom" id="调试" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/webservice/UploadJSON" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Chen'Data/state_document_dict.json" />
+    <entry file="file://$PROJECT_DIR$/../Chen'Data/stakeholder_subcategory_document_dict.json" />
+    <entry file="file://$PROJECT_DIR$/../Chen'Data/stakeholder_category_docment_dict.json" />
+    <entry file="file://E:/test/test/index.html" />
+    <entry file="file://E:/test/test/FileUpload.java" />
+    <entry file="file://$PROJECT_DIR$/data/Comment_Data.json" />
+    <entry file="file://$PROJECT_DIR$/css/images/ui-icons_777620_256x240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/images/ui-icons_777777_256x240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/images/ui-icons_cc0000_256x240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/images/ui-icons_ffffff_256x240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/images/ui-icons_555555_256x240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/images/ui-icons_444444_256x240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ol.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3095" selection-start-column="3085" selection-end-column="3095" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ol3-turf.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="5645" selection-start-line="2" selection-start-column="5630" selection-end-line="2" selection-end-column="5645" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="882" column="132" selection-start-line="882" selection-start-column="117" selection-end-line="882" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/us-all.geo.json" />
+    <entry file="file://$PROJECT_DIR$/data/states.geojson" />
+    <entry file="file://$PROJECT_DIR$/data/us-all.geojson" />
+    <entry file="file://$PROJECT_DIR$/data/counties.json" />
+    <entry file="file://$PROJECT_DIR$/data/countries.geojson" />
+    <entry file="file://$PROJECT_DIR$/data/world - 副本.geojson">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/usa.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arrow-s.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/world.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="179" column="50" selection-start-line="179" selection-start-column="44" selection-end-line="179" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/印度-China.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2528" selection-start-column="1" selection-end-column="2528" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/印度-Chinese Military.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="699" lean-forward="true" selection-start-column="1" selection-end-column="699" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/印度-Made in China.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="451" selection-start-column="1" selection-end-column="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/美国-COVID-19.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3991" lean-forward="true" selection-start-column="1" selection-end-column="3991" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/美国-Hong Kong.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3660" selection-start-column="1" selection-end-column="3660" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/美国-China.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1807" selection-start-column="1807" selection-end-column="1807" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/world.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret column="196867" selection-start-column="196867" selection-end-column="196867" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/New York.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="7039" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/usa（备份）.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10336" selection-start-column="10334" selection-end-column="10336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/California.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4595" lean-forward="true" selection-start-column="4595" selection-end-column="4595" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/New York.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-end-column="3726" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/usa.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7657">
+          <caret line="403" column="15" selection-start-line="403" selection-start-column="13" selection-end-line="403" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="2660" column="22" selection-start-line="2660" selection-start-column="9" selection-end-line="2660" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#option#0;n#select#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#1;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#2;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#3;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#4;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#5;n#table#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/ol.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/init.css">
+    <link rel="stylesheet" type="text/css" href="css/statistic.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link href="css/ol3-turf.min.css" rel="stylesheet" type="text/css" />    
+    <link rel='stylesheet' href='css/spectrum.css' />
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="js/jquery-3.2.1.js"  type="text/javascript" ></script>    
+    <script src="js/jquery-ui.js"  type="text/javascript" ></script> 
+    <script src='js/spectrum.js'></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.18.1/axios.min.js"></script>
+    <script src="js/ol.js" type="text/javascript"></script>
+    <script src="js/d3.v4.min.js"></script>
+    <script src="js/topojson.v1.min.js" charset="utf-8"></script>
+    <script src="js/init.js"  type="text/javascript"></script>
+    <script src="js/json.js"  type="text/javascript" ></script>
+    <script src="js/json2.js"  type="text/javascript" ></script>
+    <script src='js/turf.min-v5.1.6.js'></script>
+    <script src="js/ol3-turf.min.js" type="text/javascript"></script>
+    <script src='js/statistic.js'></script>
+    <script src='js/tagmap.js'></script>
+    <script src='js/data.js'></script>
+    <script src="js/tagEvaluation.js"></script>
+    <title>舆情标签地图可视化分析系统</title>
+  </head>
+  <body onload="init()">
+    <div id="map" class="map"></div>
+    <div id="InputDiv">
+      <!--input type="text" name="FilePath" value="Select JSON File" style="color:gray;" onmouseover="this.style.borderColor='#FF6600'" onmouseout="this.style.borderColor=''" onFocus="if (value =='Select JSON File'){value =''}" onBlur="if (value ==''){value='Select JSON File'}"/>-->
+      <table>
+        <tr>
+          <th colspan="2" text-align="left"><label id="AppTitle">舆情标签地图可视化</label></th>
+        </tr>
+        <tr>
+          <td style="width: 150px;">
+            <div id="divBaseMap">
+              <select id="baseMap" onchange="ChangeBasemap()"> <!--baseMap 改变函数-->>
+                <option value="Choose basemap" selected="selected" style="display: none">选择底图</option>
+                <option value="World">全球地图</option>
+                <option value="USA">美国地图</option>
+              </select>
+            </div>
+          </td>
+          <td text-align="center" style="cursor: pointer;">
+            <div class="uploadfile-div">
+              <form id="UploadForm" class="insert-dialog" method="post" enctype="multipart/form-data">
+                <img src="images/open24.png" id="OpenImg">
+                <input type="file" name="JsonName" id="fileField" accept="application/json" />
+              </form>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <canvas id="TxtSize" style="display: none;"></canvas>    
+    <div id="popup" class="ol-popup" style="display: none;">
+      <div id="popup-title" class="ol-popup-title">
+        <label id="popup-title-label">teetetete</label>
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a></div>      
+      <div id="popup-content"></div>
+      <a id="popup-detail">on detail>></a>
+    </div>
+    <div id="info"></div>
+    <div id="TagMapPanel">
+      <div id="TPTitle">
+        <a href="#" id="TPHelp" class="TPHelpCls" title="Help"></a>
+        <label id="TPTitle-label">参数设置</label>
+        <a href="#" id="TPShow" class="TPShow-up"></a>
+      </div>
+      <div class="TPElem">
+        <label>缩写： </label>
+        <select id="points-text" onchange="RefreshWordCloud()">
+          <option value="normal" selected="selected">正常</option>
+          <option value="shorten6">6个字母</option>
+          <option value="shorten8">8个字母</option>
+          <option value="shorten10">10个字母</option>
+        </select>
+        <br />
+        <label>字体：</label>
+        <select id="points-font" onchange="RefreshWordCloud()">
+          <option value="Arial" selected="selected">Arial</option>
+          <option value="Courier New">Courier New</option>
+          <option value="Quattrocento Sans">Quattrocento</option>
+          <option value="Verdana">Verdana</option>
+        </select>
+        <br />
+        <label>加粗：</label>
+        <select id="points-bold" onchange="RefreshWordCloud()">
+          <option value="True">True</option>
+          <option value="False" selected="selected">False</option>
+        </select>
+        <br />
+        <label>最大字大：</label>
+        <span><input type="text" value="60" id="MaxFontSize" maxlength="3" onkeyup="this.value=this.value.replace(/\D/g,'')" onchange="ChangeMaxSize()"/> pt</span>
+        <br />
+          <label>最小字大：</label>
+          <span><input type="text" value="6" id="MinFontSize" maxlength="3" onkeyup="this.value=this.value.replace(/\D/g,'')" onchange="ChangeMinSize()"/> pt</span>
+        <div id="OutlineDiv">
+          <label title="Outline Color">Outline-Color:</label>
+          <input type='text' id="outColor" value="white"/>
+          <br />
+          <label title="Outline Width">Outline-Width:</label>
+          <input type="text" value="3" id="outWidth" onchange="RefreshWordCloud()"/>
+        </div>
+        <br />
+        <label>字大计算：</label>
+        <select id="SizeCal">
+          <option value="Linear" selected="selected">线性</option>
+          <option value="Quantile">分位数</option>
+        </select>
+        <br />
+        <label>排列方向：</label>
+        <input type="checkbox" name="checkboxAll"  id="checkboxAll" onclick="SelectAllOrientation()">全选<br/>
+        <table>
+          <tr>
+            <td colspan="9" text-align="center"><canvas id="txtCanvasID" class="txtCanvas" width="225px" height="35px"></canvas></td>
+          </tr>
+          <tr>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox90"  value="-1.570796327" onclick="SelectOrientation()"></td>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox60"  value="-1.047197533" onclick="SelectOrientation()"></td>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox45"  value="-0.785398164" onclick="SelectOrientation()"></td>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox30"  value="-0.523598767" onclick="SelectOrientation()"></td>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox0"  value="0" checked="checked" onclick="SelectOrientation()"></td>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox_30"  value="0.523598767" onclick="SelectOrientation()"></td>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox_45"  value="0.785398164" onclick="SelectOrientation()"></td>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox_60"  value="1.047197533" onclick="SelectOrientation()"></td>
+            <td text-align="center"><input type="checkbox" name="checkboxOri"  id="checkbox_90"  value="1.570796327" onclick="SelectOrientation()"></td>
+          </tr>
+        </table>
+      </div>
+      <div id="TButton">
+        <input id="showInPopup" type="button" disabled="disabled" value="弹框显示"/>
+        <input id="clearSelected" type="button" disabled="disabled" value="删除"/>
+        <input id="clearMap" type="button" disabled="disabled" value="清除地图"/>
+        <input id="clearAll" type="button" disabled="disabled" value="清除所有"/>
+      </div>
+    </div>
+    <!--img id="Loading" src="images/loading.gif" style="display: none;"-->
+    <table id="LegendTable" style="display: none;"></table>
+    <div id="dialog" title="帮助">
+      <table id="HelpDialog" align="right">
+        <tr>
+          <th width="60 px">第1步：</th>
+          <th style="text-align: left">选择底图；</th>
+        </tr>
+        <tr>
+          <th>第2步：</th>
+          <th style="text-align: left">选择标签JSON文件；</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th style="text-align: left">样例: <a href="data/world.json" target="_blank">world.json</a></th>
+        </tr>
+        <tr>
+          <th></th>
+          <th style="text-align: left"><a href="data/usa.json" target="_blank">usa.json</a></th>
+        </tr>
+        <tr>
+          <th>第3步：</th>
+          <th style="text-align: left">设置视觉参数；</th>
+        </tr>
+        <tr>
+          <th>第4步：</th>
+          <th style="text-align: left">点击感兴趣的区域，生成标签地图。</th>
+        </tr>
+        <tr>
+          <th>说明</th>
+          <th style="text-align: left">地图由Openlayer提供样例。</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

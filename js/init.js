@@ -2730,7 +2730,7 @@ function init() {
               if (typeof (angleArr[i]) != "undefined") { //依次判断选择的方向上Tag是否可放置在对应的三角形中
                 recAngle = angleArr[i];
 
-                let StopIndex = 50; let IndexCount = 0;//提升效率
+                let StopIndex = 20; let IndexCount = 0;//提升效率
                 for (let triId = 0; triId < triArr.length; triId++) {
                   if (IndexCount >= StopIndex) //提升效率
                   {
@@ -2769,7 +2769,7 @@ function init() {
             if (ol_wordFeatureList.length > 0) {
               //#region 删除不好的candidate
               console.log(ol_wordFeatureList.length);
-              //FilterCandidate(ol_wordFeatureList, cpointFeatList, AngleList,CenterPointSource);
+              FilterCandidate(ol_wordFeatureList, cpointFeatList, AngleList,CenterPointSource);
               //#endregion
 
               //遍历计算相关系数最大目标

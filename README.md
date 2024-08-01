@@ -1,5 +1,6 @@
 # Multi-scale TagMap
->The Code is developed to support the findings of our submitted paper，for more details see the pdf file as: waiting for our update.
+>The Code is developed to support the findings of our submitted paper，for more details can refer to as follows.
+>>Wei Z, Yang N. Using Negative Spatial Auto-correlation Index to Evaluate and Improve Intrinsic Tag Map’s Multi-Scale Visualization Capabilities[J]. Cartography and Geographic Information Science, 2024, 1-24.
 
 >The tools were implemented based OpenLayers and Turf.js and developed based on Tag Map Explorer, in which the Tag Map Explorer is proposed by Yang et al. (2019), and more details can refer to as follows.
 >>Yang N, MacEachren A M, Yang L. TIN-based tag map layout[J]. The Cartographic Journal, 2019, 56(2): 101-116.
